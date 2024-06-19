@@ -8,6 +8,7 @@ const tempData = [
     rate: 7.7,
     poster:
       "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
+    background: "https://images.alphacoders.com/900/900383.jpg"
   },
   {
     title: "Star Wars: Episode IV - A New Hope",
@@ -18,6 +19,7 @@ const tempData = [
     rate: 8.7,
     poster:
       "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
+    background: "https://images.alphacoders.com/864/thumb-1920-864502.jpg"
   },
   {
     title: "The Lord of the Rings: The Fellowship of the Ring",
@@ -28,5 +30,6 @@ const tempData = [
     rate: 8.8,
     poster:
       "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+    background: "https://images3.alphacoders.com/855/85585.jpg"
   },
 ];

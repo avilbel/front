@@ -1,0 +1,1 @@
+document.querySelector("#cards-container"),$.get("https://students-api.up.railway.app/movies").done(transformResponse).fail(failResponse);

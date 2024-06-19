@@ -1,0 +1,97 @@
+
+body{
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+  
+  .moviesLogo{
+    border-radius: 8%;
+    transform: scale(0.5);
+    box-shadow: 6px 6px 20px #016a91;
+  }
+  
+  
+/***** Movie Cards */
+.movieContainer{
+    /* border: solid 2px red; */
+  }
+
+.cardContainer{
+    /* border: solid 2px green; */
+    padding: 10px 20px;;
+    display: flex;
+    flex-direction: row;
+    margin: 6% auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    /* border: solid 2px yellow; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: fit-content;
+    
+} 
+
+.card:hover{
+    transform: scale(1.6);
+}
+
+
+h1{
+    color: #03f7d2;
+    font-weight: thick;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 4% 15% 4% 8%;
+    text-wrap: wrap;
+    margin-left: 30px ;
+    margin-top: 25px;
+    
+}
+
+.movieImg{
+    border: solid 3px black;
+    width: fit-content;
+    align-self: center;
+    margin-top: 10px;
+    box-shadow: 8px 10px 15px rgb(182, 177, 147);
+    overflow: hidden;
+}
+
+button{
+    color: #d8e1e5;
+    border: solid 2px rgb(2, 62, 108);
+    width: fit-content;
+    align-self: center;
+    padding: 3%;
+    background-color: #016a91;
+    border-radius: 25%;
+    margin-top: 2.5%;
+    box-shadow: 2px 5px 15px #4a90a9;
+}
+
+/* card.selected {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+}*/
+/*******  END Movie Cards */

@@ -1,0 +1,49 @@
+/*  */
+body{
+    background-color: black;
+  }
+  
+  /******** Nav Menu */
+
+.navBar{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-bottom: solid .5px rgb(0, 141, 192);
+  border-radius: 25%;
+  border-top: solid .5px #008dc0;
+}
+
+
+a{
+  position: relative;
+  text-decoration:underline;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding: 5px 40px;
+  color: rgb(179, 114, 114);
+  align-self: center;
+  border-bottom: solid .5px rgb(0, 141, 192);
+  border-radius: 40%;
+  border-top: solid .5px #008dc0;
+  margin: 40px  35px;
+
+}
+
+a:hover{
+  color:rgb(2, 92, 140);
+  transform: scale(1.5);
+  background-color: rgb(182, 216, 239);
+  font-family: 'Times New Roman', Times, serif;
+} 
+
+  /********* END Nav Menu */

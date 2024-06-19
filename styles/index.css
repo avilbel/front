@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10% 5% 8% 5%;
+    padding: 10px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    height: 25%;
+    width: 60%;
+}
+
