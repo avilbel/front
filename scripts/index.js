@@ -1,9 +1,9 @@
 const { transformData } = require("./transformData.js")
-const { fail } = require("./fail.js")
+const { failAttempt } = require("./fail.js")
 
-const cardsContainer = document.querySelector('#cards-container');
+const cardContainer = document.querySelector('#cardContainer');
 
 $.get("https://students-api.up.railway.app/movies")
-    .done(transformData);
-    .fail(fail)
+    .done(transformData)
+    .fail(faiAttempt)
 

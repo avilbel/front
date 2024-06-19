@@ -1,10 +1,13 @@
-function fail() {
+const { addHTMLtoDOM } = require("./addHTMLtoDOM.js");
+const { tempData } = require("./tempData.js");
 
-    alert("WE are having problems with the server, we are moving foward with manual settings. Please excuse the inconvinince and are encouraged to try again in a few minutes. Thank you.")
+function failAttempt() {
+
+    alert("WE are having problems with the server, we are moving forward with manual settings. Please excuse the inconvenience and are encouraged to try again in a few minutes. Thank you.")
 
     addHTMLtoDOM(tempData)
 }
 
 module.exports = {
-    fail
+    failAttempt
 }

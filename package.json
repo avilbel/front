@@ -1,21 +1,13 @@
 {
-  "name": "pm2-avilbel-front",
+  "name": "front",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w",
-    "start": "live-server"
+    "build" : "webpack -w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "live-server": "^1.2.2"
-  }
+  "license": "ISC"
 }

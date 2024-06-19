@@ -33,3 +33,8 @@ const tempData = [
     background: "https://images3.alphacoders.com/855/85585.jpg"
   },
 ];
+
+
+module.exports = {
+  tempData
+}

@@ -1,3 +1,5 @@
+const { movieLoad } = require("./movieLoad.js")
+
 function addHTMLtoDOM(info) {
 
     const arrayHTMLcards = info.map(movieLoad)

@@ -1,3 +1,5 @@
+
+
 function movieLoad(movie) {
 
     const div = document.createElement("div")
@@ -26,4 +28,8 @@ function movieLoad(movie) {
     })
 
     return div
+}
+
+module.exports = {
+    movieLoad
 }
